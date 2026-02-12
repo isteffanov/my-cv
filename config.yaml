@@ -1,0 +1,8 @@
+cvs:
+  java-engineer:
+    data: data/java-engineer.yaml
+    template: templates/banking.tex.jinja
+    output: output/java-engineer.pdf
+
+defaults:
+  template: templates/banking.tex.jinja

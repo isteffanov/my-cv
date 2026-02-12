@@ -29,9 +29,9 @@ jobs:
       - name: Generate CV PDF
         run: python generate.py
 
-      - name: Upload CV PDF
+      - name: Upload CV PDFs
         uses: actions/upload-artifact@v4
         with:
-          name: cv
-          path: cv.pdf
+          name: cvs
+          path: output/*.pdf
           retention-days: 90
