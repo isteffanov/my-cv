@@ -1,0 +1,52 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+
+% Style and color options
+\moderncvstyle{banking}       % Options: 'casual', 'classic', 'oldstyle', 'banking', 'fancy'
+\moderncvcolor{black}          % Options: 'blue', 'orange', 'green', 'red', 'purple', 'grey', 'black'
+
+% Encoding & geometry
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.9]{geometry}
+
+% Personal info
+\name{<< personal.firstName >>}{<< personal.lastName >>}
+\title{<< personal.jobTitle >>}
+\address{<< personal.postCode >>}{<< personal.city >>, << personal.country >>}
+\phone[mobile]{<< personal.phoneNumber >>}
+\email{<< personal.email >>}
+\social[github]{<< personal.github >>}
+
+% Begin document
+\begin{document}
+\makecvtitle
+
+% Summary
+\section{Summary}
+<< summary >>
+<% for section_name, entries in sections.items() %>
+% << section_name >>
+\section{<< section_name >>}
+<% for entry in entries -%>
+<% if entry.bullets %>
+\cventry{<< entry.date >>}{<< entry.title >>}{<< entry.subtitle >>}{}{}{%
+\begin{itemize}%
+<% for bullet in entry.bullets -%>
+    \item << bullet >>
+<% endfor -%>
+\end{itemize}}
+<% elif entry.text -%>
+\cventry{<< entry.date >>}{<< entry.title >>}{<< entry.subtitle >>}{}{}{
+<< entry.text >>}
+<% else -%>
+\cventry{<< entry.date >>}{<< entry.title >>}{<< entry.subtitle >>}{}{}{}
+<% endif -%>
+<% endfor %>
+<% endfor %>
+
+% Languages
+\section{Languages}
+<% for lang in languages -%>
+\cvitemwithcomment{<< lang.language >>}{<< lang.level >>}{<< lang.comment >>}
+<% endfor %>
+
+\end{document}

@@ -1,69 +1,83 @@
 personal:
-    firstName: Ivan
-    lastName: Stefanov
-    jobTitle: Java Engineer
-    postCode: 1407
-    city: Sofia
-    country: Bulgaria
-    phoneNumber: +359 88 978 6609
-    email: isteffanov@gmail.com
-    github: isteffanov
-summary:  hello
-sections:
-    education:
-        masters:
-            date: 2023--Present
-            title: M.Sc. Artifical Intelligence
-            subtitle: Sofia University
-            text: ai
-        bachelors:
-            date: 2019--2023
-            title: B.Sc. Informatics
-            subtitle: Sofia University
-            text: cs
-    experience:
-        java:
-            date: 2024--Present
-            title: Java Software Engineer
-            subtitle: Ocado Technology
-            bullets: 
-                - Working in the complex domain of \textbf{Retail} and \textbf{Fulfillment}
-                - Automated bug and report generation with \textbf{Jupyter}, \textbf{Pandas}, \textbf{Plotly}
-                - Designed, implemented and tested novel mechanism which led to \textbf{50\% performance improvement}, \\ reaching client targets
-                - Confidently challenged tech dept solutions and pushed intelligent, \textbf{domain-driven design}
-                - Initiated the integration of \textbf{formal verification} in the system
-        intern:
-            date: March, 2022
-            title: Data Science Intern
-            subtitle: Ocado Technology
-            bullets: 
-                - Implemented from scratch Data Warehousing and ETL approach with \textbf{Python}, \textbf{GCP} and \textbf{BigQuery}
-                - Trained and tested state-of-the-art Convolutional Neural Network for \textbf{Object Detection and Localization} 
-                - \textbf{Generated augmented data} to make the model more robust
-    mentoring:
-        ta:
-            date: 2024--Present
-            title: Teaching Assistant
-            subtitle: Sofia University, Depratment of Mathematical Logic
-        mentor:
-            date: June, 2024
-            title: Intern Mentor
-            subtitle: Ocado Technology
-        lector:
-            date: May, 2023
-            title: Guest Lecturer
-            subtitle: Software University
-            text: "Topic: \\textit{Natural Language Techniques. Transducer Architecture}"
-    
-    projects:
-        db:
-            date: March, 2025
-            title: Efficient In-Memory Database with Transducers
-            subtitle: Personal, Passion
-            text: Reached significant query performance using smart indexing. \textit{Work in progress}
-        levenshtein:
-            date: February, 2024
-            subtitle: Sofia University, Information Retrieval
-            title: Contextual Spell Checking with Levenshtein Automata
-            text: Proved that with smart implementation and engineering know-how the problem of spell-checking could be done near-instantly. With the core of the project being in \textbf{C++}, I then packaged it, then used \textbf{Python} to do contextual search and prediction using \textbf{PyTorch} via classical approaches like \textbf{CBoW} and modern ones, such as \textbf{Transformer} architectures to do \textit{spell-checking like never done before}.
+  firstName: Ivan
+  lastName: Stefanov
+  jobTitle: Java Engineer
+  postCode: "1407"
+  city: Sofia
+  country: Bulgaria
+  phoneNumber: "+359 88 978 6609"
+  email: isteffanov@gmail.com
+  github: isteffanov
 
+summary: |
+  Results-driven software engineer with \textit{more than 2 years} of professional experience developing complex algorithmic and data-driven solutions in \textit{state-of-the-art} domains. Experienced with \textit{data analysis, exploration and interpretation}. \\
+  Passionate about automation, optimization, and mentoring.
+
+sections:
+  Education:
+    - date: 2023--Present
+      title: M.Sc. Artificial Intelligence
+      subtitle: Sofia University
+      text: |
+        Continued with researching more \textbf{statistical} and \textbf{data-driven} approaches to modern problems.\\
+        Thesis: \textit{Bridging the Von Neumann gap in Neural Networks}
+
+    - date: 2019--2023
+      title: B.Sc. Informatics
+      subtitle: Sofia University
+      text: |
+        Attended numerous \textbf{Masters-level} courses on complex \textit{state-of-the-art} algorithmic methods and approaches
+        to \textbf{NP-hard problems}.\\
+        Laid a mathematical foundation for \textit{researching, designing and developing} solutions
+        for any novel problem. \\
+        Thesis: \textit{ASL Translation using Transformer Architecture}
+
+  Experience:
+    - date: 2024--Present
+      title: Java Software Engineer
+      subtitle: Ocado Technology
+      bullets:
+        - Working in the complex domain of \textbf{Retail} and \textbf{Fulfillment}
+        - Automated bug and report generation with \textbf{Jupyter}, \textbf{Pandas}, \textbf{Plotly}
+        - Designed, implemented and tested novel mechanism which led to \textbf{50\% performance improvement}, reaching client targets
+        - Confidently challenged tech dept solutions and pushed intelligent, \textbf{domain-driven design}
+        - Initiated the integration of \textbf{formal verification} in the system
+
+    - date: March, 2022
+      title: Data Science Intern
+      subtitle: Ocado Technology
+      bullets:
+        - Implemented from scratch Data Warehousing and ETL approach with \textbf{Python}, \textbf{GCP} and \textbf{BigQuery}
+        - Trained and tested state-of-the-art Convolutional Neural Network for \textbf{Object Detection and Localization}
+        - \textbf{Generated augmented data} to make the model more robust
+
+  Mentoring:
+    - date: 2024--Present
+      title: Teaching Assistant
+      subtitle: Sofia University, Department of Mathematical Logic
+
+    - date: June, 2024
+      title: Intern Mentor
+      subtitle: Ocado Technology
+
+    - date: May, 2023
+      title: Guest Lecturer
+      subtitle: Soft Uni
+      text: "Topic: \\textit{Natural Language Techniques. Transducer Architecture}"
+
+  Projects:
+    - date: March, 2025
+      title: Efficient In-Memory Database with Transducers
+      subtitle: Personal, Passion
+      text: Reached significant query performance using smart indexing. \textit{Work in progress}
+
+    - date: February, 2024
+      title: Contextual Spell Checking with Levenshtein Automata
+      subtitle: Sofia University, Information Retrieval
+      text: |
+        Proved that with smart implementation and engineering know-how the problem of spell-checking could be done near-instantly. With the core of the project being in \textbf{C++}, I then packaged it, then used \textbf{Python} to do contextual search and prediction using \textbf{PyTorch} via classical approaches like \textbf{CBoW} and modern ones, such as \textbf{Transformer} architectures to do \textit{spell-checking like never done before}.
+
+languages:
+  - language: English
+    level: Fluent
+    comment: Cambridge C1
